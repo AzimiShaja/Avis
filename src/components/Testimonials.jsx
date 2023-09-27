@@ -7,12 +7,14 @@ const Testimonials = () => {
   const [open2, setOpen2] = useState(false);
   const [open3, setOpen3] = useState(false);
   return (
-    <div className="py-20 bg-white flex justify-center bg-4">
+    <div className="py-20 bg-white flex justify-center lg:bg-4 px-8">
       <div className="lg:w-[1200px] flex flex-col items-center gap-20">
         <div className="flex-col flex items-center gap-3">
           <p className="font-bold text-lg text-orange-500">FAQ</p>
-          <h1 className="text-4xl font-bold">Frequently Asked Questions</h1>
-          <p className="text-sm text-gray-600 ">
+          <h1 className="lg:text-5xl text-3xl text-center font-bold">
+            Frequently Asked Questions
+          </h1>
+          <p className="text-sm text-gray-600  text-center">
             Frequently Asked Questions About the Car Rental Booking Process on
             Our Website: Answers to Common Concerns and Inquiries.
           </p>
