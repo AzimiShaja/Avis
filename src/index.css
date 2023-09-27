@@ -23,3 +23,9 @@ ul li {
 
   background-size: cover ;
 }
+.car-btns button{
+  @apply border py-3 px-6 hover:bg-orange-500 hover:text-white rounded-sm duration-300;
+}
+.active-btn {
+  @apply bg-orange-500 text-white;
+}
