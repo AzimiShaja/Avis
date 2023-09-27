@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 html {
-  @apply font-poppins;
+  @apply font-poppins bg-gray-50; 
+
 }
 ul li {
  @apply font-semibold text-[1rem] cursor-pointer hover:-translate-y-1 duration-300;
@@ -14,5 +15,11 @@ ul li {
   background-size: contain ;
 }
 .bg {
-  @apply md:bg-right-top max-lg:bg-none bg-gray-50;
+  @apply md:bg-right-top max-lg:bg-none ;
+}
+.bg-2{
+  background-image: url("./assets/book-bg.png");
+  background-repeat: no-repeat;
+
+  background-size: cover ;
 }
