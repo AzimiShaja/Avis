@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  @apply font-poppins;
+}
+ul li {
+ @apply font-semibold text-[1rem] cursor-pointer hover:-translate-y-1 duration-300;
+}
+.bg{ 
+  background-image: url("./assets/hero1.png");
+  background-repeat: no-repeat;
+
+  background-size: contain ;
+}
+.bg {
+  @apply md:bg-right-top max-lg:bg-none bg-gray-50;
+}
