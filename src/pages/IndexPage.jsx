@@ -4,6 +4,9 @@ import { AiOutlineArrowDown, AiOutlineArrowRight } from "react-icons/ai";
 import Book from "../components/Book";
 import Plan from "../components/Plan";
 import Models from "../components/Models";
+import Banner from "../components/Banner";
+import Whyus from "../components/Whyus";
+import Testimonials from "../components/Testimonials";
 
 const IndexPage = () => {
   return (
@@ -36,6 +39,9 @@ const IndexPage = () => {
       <Book />
       <Plan />
       <Models />
+      <Banner />
+      <Whyus />
+      <Testimonials />
     </>
   );
 };

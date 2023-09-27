@@ -3,9 +3,9 @@ import React from "react";
 const Book = () => {
   return (
     <div className="h-full flex  my-10 px-8 lg:justify-center">
-      <div className="bg-white shadow-2xl rounded-lg py-8 px-8 lg:p-10  flex flex-col gap-10 bg-2 w-full lg:w-[70%]">
+      <div className="bg-white shadow-2xl rounded-lg py-8 px-8 lg:p-10  flex flex-col gap-10 bg-2 w-full lg:w-[1200px]">
         <h1 className="text-4xl font-bold">Book a Car</h1>
-        <form className="grid lg:grid-cols-3 gap-10">
+        <form className="grid lg:grid-cols-3 gap-10 ">
           <div className="flex flex-col gap-2">
             <h1 className="font-semibold">
               Select Your Car Type <span className="text-orange-500">*</span>{" "}

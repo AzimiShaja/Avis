@@ -29,3 +29,25 @@ ul li {
 .active-btn {
   @apply bg-orange-500 text-white;
 }
+
+.bg-3{
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+.bg-4{
+  background-image: url("./assets/car2_2.png");
+  background-repeat: no-repeat;
+
+
+}
+.bg-4{
+  @apply bg-left;
+}
+
+.open {
+  @apply h-[200px]  duration-700 
+}
+.close {
+  @apply h-0 p-0 duration-700 z-[-1] opacity-0;
+}

@@ -5,7 +5,7 @@ import { MdCarRental } from "react-icons/md";
 const Plan = () => {
   return (
     <div className="py-20 flex justify-center">
-      <div className="rounded-lg py-8 px-8 lg:p-10 sm:w-[70%] lg:w-[79%] flex flex-col items-center gap-28 min-w-8/12  ">
+      <div className="rounded-lg py-8 px-8 lg:p-10 lg:w-[1200px] flex flex-col items-center gap-28  ">
         <div className="text-center">
           <p className="font-semibold mb-3 text-orange-500">
             Plan your trip now
