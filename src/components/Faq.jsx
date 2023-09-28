@@ -11,7 +11,7 @@ const Faq = () => {
       <div className="lg:w-[1200px] flex flex-col items-center gap-20">
         <div className="flex-col flex items-center gap-3">
           <p className="font-bold text-lg text-orange-500">FAQ</p>
-          <h1 className="lg:text-5xl text-3xl text-center font-bold">
+          <h1 className="lg:text-5xl text-3xl text-center font-bold mb-6">
             Frequently Asked Questions
           </h1>
           <p className="text-sm text-gray-600  text-center">

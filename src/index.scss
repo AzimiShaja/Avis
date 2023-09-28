@@ -58,3 +58,6 @@ ul li {
 .close {
   @apply h-0 p-0 duration-700 z-[-1] opacity-0;
 }
+.company p {
+  @apply hover:text-orange-500 duration-300 cursor-pointer
+}
