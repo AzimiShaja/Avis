@@ -1,12 +1,12 @@
 import React from "react";
+import mems from "./Members";
 import Members from "./TeamMembers";
-import members from "./Member";
 
 const Team = () => {
   return (
     <div className="py-20 flex justify-center px-8">
       <div className="w-[1200px] max-lg:w-full grid lg:grid-cols-3 gap-10">
-        {members.map((member) => {
+        {mems.map((member) => {
           return (
             <Members
               key={member.id}

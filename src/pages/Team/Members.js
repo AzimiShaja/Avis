@@ -5,7 +5,7 @@ import p4 from "../../assets/p4.jpeg";
 import p5 from "../../assets/p5.jpeg";
 import p6 from "../../assets/p6.jpeg";
 
-const members = [
+const mems = [
   {
     id: 1,
     name: "John Doe",
