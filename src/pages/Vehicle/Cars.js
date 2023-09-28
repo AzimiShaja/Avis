@@ -8,7 +8,7 @@ const cars = [
   {
     id: "1",
     name: "Toyota Camry",
-    rent: 45,
+    rent: 65,
     model: "Camry",
     Transmission: "Automatic",
     Fuel: "Gasoline",
@@ -17,7 +17,7 @@ const cars = [
   {
     id: "2",
     name: "Honda Accord",
-    rent: 45,
+    rent: 15,
     model: "Camry",
     Transmission: "Manual",
     Fuel: "Electronic",
@@ -26,7 +26,7 @@ const cars = [
   {
     id: "3",
     name: "Ford Fusion",
-    rent: 45,
+    rent: 53,
     model: "Camry",
     Transmission: "Automatic",
     Fuel: "Petrol",
@@ -35,7 +35,7 @@ const cars = [
   {
     id: "4",
     name: "Nissan Altima",
-    rent: 45,
+    rent: 55,
     model: "Camry",
     Transmission: "Automatic",
     Fuel: "Gasoline",
@@ -44,7 +44,7 @@ const cars = [
   {
     id: "5",
     name: "Hyundai Sonata",
-    rent: 45,
+    rent: 35,
     model: "Camry",
     Transmission: "Automatic",
     Fuel: "Petrol",
@@ -53,7 +53,7 @@ const cars = [
   {
     id: "6",
     name: "Toyota RAV4",
-    rent: 45,
+    rent: 95,
     model: "RAV4",
     Transmission: "Automatic",
     Fuel: "Electronic",
