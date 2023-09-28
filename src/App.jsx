@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import About from "./pages/About/About";
+import Contact from "./pages/Contact";
 import IndexPage from "./pages/IndexPage";
 import OurTeam from "./pages/Team/OurTeam";
 import Testimonial from "./pages/Testimonial";
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/vehicles" element={<Vehicles />} />
         <Route path="/testimonials" element={<Testimonial />} />
         <Route path="/team" element={<OurTeam />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

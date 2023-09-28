@@ -6,9 +6,9 @@ const Header = () => {
     <div className="py-5 px-8 flex justify-between lg:justify-evenly items-center">
       <div className="flex gap-1 items-center">
         <AiFillCar className="text-4xl text-orange-500" />
-        <h1 className="text-2xl font-bold">
+        <a href="/" className="text-2xl font-bold cursor-pointer">
           Avis<span className="font-light text-lg text-orange-500">.com</span>
-        </h1>
+        </a>
       </div>
       <ul className="flex gap-6  items-center max-lg:hidden">
         <a href="/">Home</a>

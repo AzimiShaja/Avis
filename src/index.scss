@@ -69,6 +69,11 @@ ul a {
 .bg-6{
  @apply  bg-right  bg-contain  max-xl:bg-none;
 }
+.bg-7{
+  background-image: url("./assets/contact.png");
+  background-repeat: no-repeat;
+  background-position: center;
+ }
 
 .car {
   &:hover {

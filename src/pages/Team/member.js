@@ -27,7 +27,7 @@ const members = [
   {
     id: 4,
     name: "Emily Brown",
-    Img: p4,
+    Img: p6,
     job: "Mechanic",
   },
   {
@@ -38,8 +38,8 @@ const members = [
   },
   {
     id: 6,
-    name: "Olivia Wilson",
-    Img: p6,
+    name: "Kevin Wilson",
+    Img: p4,
     job: "Photographer",
   },
 ];
