@@ -44,4 +44,4 @@ const mems = [
   },
 ];
 
-export default members;
+export default mems;
