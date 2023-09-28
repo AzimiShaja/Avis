@@ -5,7 +5,7 @@ html {
   @apply font-poppins bg-gray-50; 
 
 }
-ul li {
+ul a {
  @apply font-semibold text-[1rem] cursor-pointer hover:-translate-y-1 duration-300;
 }
 .bg{ 
@@ -60,4 +60,12 @@ ul li {
 }
 .company p {
   @apply hover:text-orange-500 duration-300 cursor-pointer
+}
+.bg-6{
+  background-image: url("./assets/aboutCar.png");
+  background-repeat: no-repeat;
+
+}
+.bg-6{
+ @apply  bg-right  bg-contain  max-xl:bg-none;
 }

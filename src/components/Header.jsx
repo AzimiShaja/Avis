@@ -11,12 +11,12 @@ const Header = () => {
         </h1>
       </div>
       <ul className="flex gap-6  items-center max-lg:hidden">
-        <li>Home</li>
-        <li>About</li>
-        <li>Vehicle Models</li>
-        <li>Testimonials</li>
-        <li>Our Team</li>
-        <li>Contact</li>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/vehicles">Vehicle Models</a>
+        <a href="/testimonials">Testimonials</a>
+        <a href="/team">Our Team</a>
+        <a href="/contact">Contact</a>
       </ul>
       <div className="flex gap-5 max-lg:hidden">
         <button className="py-2 px-2 hover:bg-gray-50 rounded-lg duration-300">
