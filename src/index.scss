@@ -69,3 +69,12 @@ ul a {
 .bg-6{
  @apply  bg-right  bg-contain  max-xl:bg-none;
 }
+
+.car {
+  &:hover {
+    img {
+      transition: all 0.3s;
+      scale: 0.96;
+    }
+  }
+}

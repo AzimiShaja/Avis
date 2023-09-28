@@ -7,7 +7,7 @@ import AboutHero from "./AboutHero";
 const About = () => {
   return (
     <div>
-      <AboutHero />
+      <AboutHero page="About" />
       <AboutCompany />
       <Plan />
       <Banner />
