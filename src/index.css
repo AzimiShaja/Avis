@@ -42,11 +42,18 @@ ul li {
 
 }
 .bg-4{
-  @apply bg-left;
+  @apply bg-left max-xl:bg-none;
 }
+.bg-5{
+  background-image: url("./assets/bg-app.png");
+  background-repeat: no-repeat;
 
+}
+.bg-5{
+ @apply bg-right-top  max-xl:bg-none;
+}
 .open {
-  @apply h-[200px]  duration-700 
+  @apply h-[200px]  duration-700  
 }
 .close {
   @apply h-0 p-0 duration-700 z-[-1] opacity-0;

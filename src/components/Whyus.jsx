@@ -10,8 +10,8 @@ const Whyus = () => {
         <div className="max-w-[700px]">
           <img src={car} alt="" />
         </div>
-        <div className="flex gap-20 max-lg:flex-col">
-          <div className="flex flex-col items-start gap-6  max-w-xl justify-evenly">
+        <div className="flex gap-20 max-lg:flex-col max-lg:items-center">
+          <div className="flex flex-col items-start gap-6  max-w-xl justify-evenly ">
             <div>
               <p className="font-bold text-orange-500 mb-3 max-lg:text-center">
                 Why Choose Us
@@ -33,7 +33,7 @@ const Whyus = () => {
             </button>
           </div>
           <div>
-            <div className="flex items-center gap-7 max-w-lg">
+            <div className="flex items-center gap-7">
               <RiCarWashingFill className="text-[150px] text-orange-500" />
               <div className="flex flex-col items-start">
                 <h1 className="text-2xl font-bold mb-3">Cross Country Drive</h1>

@@ -7,6 +7,8 @@ import Models from "../components/Models";
 import Banner from "../components/Banner";
 import Whyus from "../components/Whyus";
 import Testimonials from "../components/Testimonials";
+import Faq from "../components/Faq";
+import Product from "../components/Product";
 
 const IndexPage = () => {
   return (
@@ -42,6 +44,8 @@ const IndexPage = () => {
       <Banner />
       <Whyus />
       <Testimonials />
+      <Faq />
+      <Product />
     </>
   );
 };
