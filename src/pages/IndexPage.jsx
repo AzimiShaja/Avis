@@ -9,8 +9,22 @@ import Whyus from "../components/Whyus";
 import Testimonials from "../components/Testimonials";
 import Faq from "../components/Faq";
 import Product from "../components/Product";
+import { useState } from "react";
+import Preload from "../components/Preload";
+import { useEffect } from "react";
 
 const IndexPage = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 600);
+  });
+
+  if (loading) {
+    return <Preload />;
+  }
   return (
     <>
       <div className="lg:min-h-[900px] py-20 flex justify-center items-center px-8 bg">

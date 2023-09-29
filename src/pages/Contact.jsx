@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { AiTwotoneMail, AiTwotonePhone } from "react-icons/ai";
+import Preload from "../components/Preload";
 import AboutHero from "./About/AboutHero";
 
 const Contact = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 600);
+  });
+
+  if (loading) {
+    return <Preload />;
+  }
   return (
     <div>
       <AboutHero page={"Contact"} />
