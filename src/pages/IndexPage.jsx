@@ -15,12 +15,16 @@ import { useEffect } from "react";
 
 const IndexPage = () => {
   const [loading, setLoading] = useState(true);
+  const [load, setLoad] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
     }, 600);
-  });
+    setTimeout(() => {
+      setLoad(true);
+    }, 700);
+  }, []);
 
   if (loading) {
     return <Preload />;
@@ -29,7 +33,11 @@ const IndexPage = () => {
     <>
       <div className="lg:min-h-[900px] py-20 flex justify-center items-center px-8 bg">
         <div className="flex items-center max-lg:flex-col max-lg:gap-20 gap-20">
-          <div className="max-w-lg flex items-start flex-col gap-10 max-lg:items-center">
+          <div
+            className={` ${
+              load ? "animate" : ""
+            } opacity-0 -translate-x-20 max-w-lg flex items-start flex-col gap-10 max-lg:items-center`}
+          >
             <div className="flex flex-col items-start gap-4 max-lg:items-center">
               <p className="font-light text-center">Plan Your Trip Now</p>
               <h1 className="text-6xl max-lg:text-3xl max-lg:text-center font-bold leading-[70px]">
@@ -49,7 +57,14 @@ const IndexPage = () => {
               </button>
             </div>
           </div>
-          <img className="lg:max-w-[700px]" src={car1} alt="" />
+          <img
+            className={`${
+              load ? "animate" : ""
+            } opacity-0 translate-x-20 lg:max-w-[700px]`}
+            loading="lazy"
+            src={car1}
+            alt=""
+          />
         </div>
       </div>
       <Book />
