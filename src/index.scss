@@ -83,3 +83,11 @@ ul a {
     }
   }
 }
+
+.openNav {
+  @apply h-[300px] opacity-100 duration-500;
+}
+
+.closeNav {
+  @apply h-0 p-0 opacity-0 duration-500;
+}
