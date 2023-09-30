@@ -49,12 +49,18 @@ const IndexPage = () => {
               </p>
             </div>
             <div className="flex justify-between gap-5 max-lg:flex-col">
-              <button className="flex items-center justify-center px-4 py-3 bg-orange-500 text-white rounded-sm shadow-2xl">
+              <a
+                href="#book"
+                className="flex items-center justify-center px-4 py-3 bg-orange-500 text-white rounded-sm shadow-2xl"
+              >
                 Book Ride <AiOutlineArrowDown className="text-xl" />
-              </button>
-              <button className="flex items-center py-3 justify-center bg-black text-white px-4 gap-1 shadow-xl duration-300">
+              </a>
+              <a
+                href="/about"
+                className="flex items-center py-3 justify-center bg-black text-white px-4 gap-1 shadow-xl duration-300"
+              >
                 Learn More <AiOutlineArrowRight className="text-xl" />{" "}
-              </button>
+              </a>
             </div>
           </div>
           <img

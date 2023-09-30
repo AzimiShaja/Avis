@@ -93,7 +93,7 @@ const Models = () => {
               </div>
             </div>
 
-            <button className="flex items-center justify-center px-4 py-3 bg-orange-500 text-white rounded-sm shadow-md shadow-black">
+            <button className="flex items-center justify-center px-4 py-3 bg-orange-500 text-white rounded-sm hover:bg-orange-600 duration-300">
               Reserve Now
             </button>
           </div>
